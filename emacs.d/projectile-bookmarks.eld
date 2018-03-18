@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/ose/cs143/" "~/ose/cs143/cool/assignments/PA2/" "~/ose/cs143/cool/" "~/mooc/Compilers/cs143/cool/assignments/PA2/" "~/mooc/Compilers/cs143/cool/assignments/PA1/")
