@@ -1,6 +1,10 @@
 (require 'package)
 (add-to-list 'package-archives
 	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
+
+;remove toolbar
+(tool-bar-mode -1)
+
 (package-initialize)
 (require 'helm-config)
 (helm-mode 1)
@@ -10,7 +14,7 @@
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
 
-; first command sfter switch project bound to helm-projectile
+; first command after switch project bound to helm-projectile
 (setq projectile-switch-project-action 'helm-projectile)
 ; helm projectile config ends
 
