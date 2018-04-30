@@ -65,3 +65,7 @@
 
 ;;show timestamp on closing items
 (setq org-log-done t)
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(setq org-agenda-files (list "~/org"
+			     "~/org/reading-list"))
