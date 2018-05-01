@@ -1,2 +1,4 @@
 .DS_Store
-*.eld
+emacs.d/projectile-bookmarks.eld
+auto-save-list/
+
