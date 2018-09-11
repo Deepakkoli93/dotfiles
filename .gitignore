@@ -1,4 +1,5 @@
 .DS_Store
 emacs.d/projectile-bookmarks.eld
 auto-save-list/
-
+.cask
+eshell/
