@@ -5,6 +5,8 @@
 ;remove toolbar
 (tool-bar-mode -1)
 
+;remove scroll bar
+(toggle-scroll-bar -1)
 
 (package-initialize)
 (use-package ivy :demand
@@ -22,7 +24,7 @@
  '(org-fontify-whole-heading-line t)
  '(package-selected-packages
    (quote
-    (geiser exec-path-from-shell use-package counsel undo-tree racket-mode))))
+    (spacemacs-theme geiser exec-path-from-shell use-package counsel undo-tree racket-mode))))
 ;; (custom-set-faces
 ;;  ;; custom-set-faces was added by Custom.
 ;;  ;; If you edit it by hand, you could mess it up, so be careful.
