@@ -3,3 +3,6 @@ emacs.d/projectile-bookmarks.eld
 auto-save-list/
 .cask
 eshell/
+elpa/
+*~
+recentf

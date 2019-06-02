@@ -24,7 +24,7 @@
  '(org-fontify-whole-heading-line t)
  '(package-selected-packages
    (quote
-    (spacemacs-theme geiser exec-path-from-shell use-package counsel undo-tree racket-mode))))
+    (sml-mode haskell-mode spacemacs-theme geiser exec-path-from-shell use-package counsel undo-tree racket-mode))))
 ;; (custom-set-faces
 ;;  ;; custom-set-faces was added by Custom.
 ;;  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -40,7 +40,7 @@
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-agenda-files (list "~/org"
 			     "~/org/reading-notes"))
-
+(setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
 ;; ivy, counseld and swiper config
 
 
